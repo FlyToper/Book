@@ -10,7 +10,7 @@
 <title>电子书城</title>
 <link rel="shortcut icon" href="<?php echo (IMG_URL); ?>favicon.ico" >
 <link rel="stylesheet" rev="stylesheet" href="<?php echo (CSS_URL); ?>style.css" type="text/css" media="all" />
-<link rel="stylesheet" rev="stylesheet" href="<?php echo (CSS_URL); ?>bootstrap.min.css" type="text/css"  />
+
 </head>
 
 <body class="main">
@@ -19,7 +19,7 @@
   <table cellspacing="0" class="headtable">
     <tr>
       <td><img src="<?php echo (IMG_URL); ?>logo.gif" width="95" height="30" /></td>
-      <td style="text-align:right"><img src="<?php echo (IMG_URL); ?>cart.gif" width="26" height="23" style="margin-bottom:-4px"/>&nbsp;<a href="cart.html">购物车</a>　|　<a href="#">帮助中心</a>　|　<a href="my.html">我的帐户</a>　|　<a href="register.html">新用户注册</a></td>
+      <td style="text-align:right"><img src="<?php echo (IMG_URL); ?>cart.gif" width="26" height="23" style="margin-bottom:-4px"/>&nbsp;<a href="/Cat">购物车</a>　|　<a href="#">帮助中心</a>　|　<?php if($_SESSION['UserNum']== null): ?><a href="User/login">登录</a><?php else: ?> <a href="/User/my"><?php echo (session('NickName')); ?></a><?php endif; ?>　|　<a href="register.html">新用户注册</a></td>
     </tr>
   </table>
 </div>
@@ -29,7 +29,7 @@
 <div id="divsearch"><table width="100%" border="0" cellspacing="0">
   <tr>
     <td style="text-align:right; padding-right:220px">Search
-  <input type="text" name="textfield" class="inputtable"/>
+  <input type="text" name="textfield" class="inputtable" id="txtSerach"/>
 <!--<input name="searchbutton" type="image" src="<?php echo (IMG_URL); ?>serchbutton.gif" style=" margin-bottom:-4px"/>-->
 <a href="search.html"><img src="<?php echo (IMG_URL); ?>serchbutton.gif" border="0" style="margin-bottom:-4px"/></a></td>
   </tr>
@@ -59,19 +59,21 @@
                       <tr>
                         <td style="text-align:center"><table width="80%" border="0" cellspacing="0" style="margin-top:15px ;margin-left:auto; margin-right:auto">
                             <tr>
-                              <td style="text-align:right; padding-top:5px; width:25%">用户名：</td>
-                              <td style="text-align:left"><input name="text" type="text" class="textinput" id="username" style="height:20px;"/></td>
+                              <td style= "font-size:16px; text-align:right; padding-top:5px; width:25%">用户名：</td>
+                              <td style="text-align:left"><input name="text" type="text" class="textinput" id="username" style="font-size:15px;height:23px;padding:5px;"/></td>
                             </tr>
-                            <tr>
-                              <td style="text-align:right; padding-top:5px">密&nbsp;&nbsp;&nbsp;&nbsp;码：</td>
-                              <td style="text-align:left"><input name="text" type="text" class="textinput" id="password" style="height:20px;"/></td>
+                            <tr >
+                              <td style="font-size:16px;text-align:right; padding-top:5px">密&nbsp;&nbsp;&nbsp;&nbsp;码：</td>
+                              <td style="text-align:left"><input name="text" type="password" class="textinput" id="password" style=" font-size:15px;height:23px;padding:5px;"/></td>
                             </tr>
+                            
+                            
                             <tr>
                               <td colspan="2" style="text-align:center"><input type="checkbox" name="checkbox" value="checkbox" />
                                 &nbsp;&nbsp;记住我的登录状态</td>
                             </tr>
                             <tr>
-                              <td colspan="2" style="padding-top:10px; text-align:center"><input name="image" type="image" onclick="logincheck()" src="<?php echo (IMG_URL); ?>loginbutton.gif" width="83" height="22"/></td>
+                              <td colspan="2" style="padding-top:10px; text-align:center"><input type='button' onclick='logincheck()' value='登 录' style="width:80px;font-size:20px;color:#000000;"/> </td>
                             </tr>
                             <tr>
                               <td colspan="2" style="padding-top:10px; text-align:center">登录帮助&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帮助中心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;忘记密码</td>
@@ -101,7 +103,7 @@
 </table>
 </div>
 
-<!-- 头部部分结束 -->
+<!-- 尾部部分结束 -->
 <div id="divfoot">
   <table width="100%" border="0" cellspacing="0">
     <tr>
@@ -113,8 +115,7 @@
     </tr>
   </table>
 </div>
-
-<!-- 头部部分结束 -->
+<!-- 尾部部分结束 -->
 <script  src="<?php echo (JS_URL); ?>jquery-2.1.4.min.js"></script>
 <script  src="<?php echo (JS_URL); ?>bootstrap.min.js"></script>
 <script  src="<?php echo (JS_URL); ?>login.js"></script>

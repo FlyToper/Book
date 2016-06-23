@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="gb2312">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>电子书城123</title>
+<title>电子书城</title>
 <link rel="shortcut icon" href="<?php echo (IMG_URL); ?>favicon.ico" >
 
 <link rel="stylesheet" rev="stylesheet" href="<?php echo (CSS_URL); ?>style.css" type="text/css" media="all" />
@@ -15,7 +15,7 @@
   <table cellspacing="0" class="headtable">
     <tr>
       <td><img src="<?php echo (IMG_URL); ?>logo.gif" width="95" height="30" /></td>
-      <td style="text-align:right"><img src="<?php echo (IMG_URL); ?>cart.gif" width="26" height="23" style="margin-bottom:-4px"/>&nbsp;<a href="cart.html">购物车</a>　|　<a href="#">帮助中心</a>　|　<a href="my.html">我的帐户</a>　|　<a href="register.html">新用户注册</a></td>
+      <td style="text-align:right"><img src="<?php echo (IMG_URL); ?>cart.gif" width="26" height="23" style="margin-bottom:-4px"/>&nbsp;<a href="/Cat">购物车</a>　|　<a href="#">帮助中心</a>　|　<?php if($_SESSION['UserNum']== null): ?><a href="User/login">登录</a><?php else: ?> <a href="my.html">我的帐户</a><?php endif; ?>　|　<a href="register.html">新用户注册</a></td>
     </tr>
   </table>
 </div>
@@ -97,7 +97,6 @@
     </tr>
   </table>
 </div>
-
 <!-- 底部部分结束 -->
 
 

@@ -10,12 +10,12 @@
 <title>电子书城</title>
 <link rel="shortcut icon" href="{$Think.const.IMG_URL}favicon.ico" >
 <link rel="stylesheet" rev="stylesheet" href="{$Think.const.CSS_URL}style.css" type="text/css" media="all" />
-<link rel="stylesheet" rev="stylesheet" href="{$Think.const.CSS_URL}bootstrap.min.css" type="text/css"  />
+
 </head>
 
 <body class="main">
 <!-- 头部部分开始 -->
-<include file="Index:header"/>
+<include file="Public:header"/>
 <!-- 头部部分结束 -->
 
 <div id="divcontent">
@@ -33,19 +33,21 @@
                       <tr>
                         <td style="text-align:center"><table width="80%" border="0" cellspacing="0" style="margin-top:15px ;margin-left:auto; margin-right:auto">
                             <tr>
-                              <td style="text-align:right; padding-top:5px; width:25%">用户名：</td>
-                              <td style="text-align:left"><input name="text" type="text" class="textinput" id="username" style="height:20px;"/></td>
+                              <td style= "font-size:16px; text-align:right; padding-top:5px; width:25%">用户名：</td>
+                              <td style="text-align:left"><input name="text" type="text" class="textinput" id="username" style="font-size:15px;height:23px;padding:5px;"/></td>
                             </tr>
-                            <tr>
-                              <td style="text-align:right; padding-top:5px">密&nbsp;&nbsp;&nbsp;&nbsp;码：</td>
-                              <td style="text-align:left"><input name="text" type="text" class="textinput" id="password" style="height:20px;"/></td>
+                            <tr >
+                              <td style="font-size:16px;text-align:right; padding-top:5px">密&nbsp;&nbsp;&nbsp;&nbsp;码：</td>
+                              <td style="text-align:left"><input name="text" type="password" class="textinput" id="password" style=" font-size:15px;height:23px;padding:5px;"/></td>
                             </tr>
+                            
+                            
                             <tr>
                               <td colspan="2" style="text-align:center"><input type="checkbox" name="checkbox" value="checkbox" />
                                 &nbsp;&nbsp;记住我的登录状态</td>
                             </tr>
                             <tr>
-                              <td colspan="2" style="padding-top:10px; text-align:center"><input name="image" type="image" onclick="logincheck()" src="{$Think.const.IMG_URL}loginbutton.gif" width="83" height="22"/></td>
+                              <td colspan="2" style="padding-top:10px; text-align:center"><input type='button' onclick='logincheck()' value='登 录' style="width:80px;font-size:20px;color:#000000;"/> </td>
                             </tr>
                             <tr>
                               <td colspan="2" style="padding-top:10px; text-align:center">登录帮助&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帮助中心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;忘记密码</td>
@@ -75,9 +77,9 @@
 </table>
 </div>
 
-<!-- 头部部分结束 -->
-<include file="Index:footer"/>
-<!-- 头部部分结束 -->
+<!-- 尾部部分结束 -->
+<include file="Public:footer"/>
+<!-- 尾部部分结束 -->
 <script  src="{$Think.const.JS_URL}jquery-2.1.4.min.js"></script>
 <script  src="{$Think.const.JS_URL}bootstrap.min.js"></script>
 <script  src="{$Think.const.JS_URL}login.js"></script>

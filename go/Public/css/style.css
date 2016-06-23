@@ -12,7 +12,10 @@
 	vertical-align:top;
 }
 
-
+input{
+	padding:5px;
+	border-radius:6px;
+}
 
 
 a{
@@ -28,7 +31,7 @@ a:visited {
 }
 a:hover {
 	text-decoration:none;
-	color:#990099;/*ÑÕÉ«±ä»»*/
+	color:#990099;/*ï¿½ï¿½É«ï¿½ä»»*/
 }
 a:active {
 	text-decoration: none;
@@ -109,7 +112,7 @@ padding:10px 50px 25px 135px;
 }
 #divmenu a:hover {
 	text-decoration:none;
-	color:#999999;/*ÑÕÉ«±ä»»*/
+	color:#999999;/*ï¿½ï¿½É«ï¿½ä»»*/
 	font-weight:bold;
 }
 #divmenu a:active {
@@ -299,7 +302,7 @@ padding:1px;
 	border: 1px solid #999999;
 }
 
-/*·ÖÒ³*/ 
+/*ï¿½ï¿½Ò³*/ 
 
 .pagination{ 
     padding: 5px;
@@ -353,7 +356,7 @@ color: #929292;
     padding: 5px;
 } 
 
-/*·ÖÒ³*/ 
+/*ï¿½ï¿½Ò³*/ 
 
 
 
@@ -386,7 +389,7 @@ border:1px solid #A4B5BD;
 
 
 #logindiv{
-background-image:url(../images/loginbg.gif);
+background-image:url(/Public/img/loginbg.gif);
 width:305px; 
 height:361px; 
 background-repeat:no-repeat; 

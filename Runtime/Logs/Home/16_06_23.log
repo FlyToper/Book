@@ -32,3 +32,1849 @@ INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
 NOTIC: [2] file_put_contents(../Runtime/Cache/Home/5ef9a9b5d207828e17778b4d1a107053.php) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: Invalid argument G:\MyPHPWeb\TpProject\ThinkPHP\Library\Think\Storage\Driver\File.class.php 第 47 行.
 ERR: _STORAGE_WRITE_ERROR_:../Runtime/Cache/Home/5ef9a9b5d207828e17778b4d1a107053.php
 
+[ 2016-06-23T10:00:08+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2016-06-23T10:09:28+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-06-23T10:20:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-06-23T10:21:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2016-06-23T10:21:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2016-06-23T10:22:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-06-23T10:23:25+08:00 ] 127.0.0.1 /index.php?a=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+ERR: 非法操作:Cat
+
+[ 2016-06-23T10:23:33+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+ERR: 模板不存在:../Home/View/Cat/index.html
+
+[ 2016-06-23T10:23:56+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2016-06-23T10:24:02+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-06-23T10:26:44+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-06-23T10:27:53+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-06-23T10:27:56+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2016-06-23T10:28:12+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-06-23T10:28:14+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2016-06-23T10:28:14+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2016-06-23T10:28:14+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2016-06-23T10:29:10+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-06-23T10:29:11+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-06-23T10:29:11+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2016-06-23T10:29:12+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2016-06-23T10:29:12+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-06-23T10:29:48+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2016-06-23T10:29:49+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2016-06-23T10:29:49+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2016-06-23T10:29:50+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-06-23T10:29:53+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2016-06-23T10:31:22+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-06-23T10:31:23+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-06-23T10:31:24+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-06-23T10:31:24+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-06-23T10:31:41+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000623s ]
+
+[ 2016-06-23T10:31:42+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-06-23T10:32:28+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-06-23T10:32:29+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-06-23T10:32:30+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-06-23T10:32:30+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2016-06-23T10:32:52+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2016-06-23T10:32:53+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2016-06-23T10:34:50+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2016-06-23T10:35:22+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2016-06-23T10:38:38+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-06-23T10:40:54+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-06-23T10:40:55+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002248s ]
+
+[ 2016-06-23T10:40:56+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2016-06-23T10:40:56+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-06-23T10:41:08+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-06-23T10:41:27+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-06-23T10:51:28+08:00 ] 127.0.0.1 /index.php?c=Cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2016-06-23T10:52:02+08:00 ] 127.0.0.1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-06-23T10:52:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-06-23T10:55:00+08:00 ] 127.0.0.1 /index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-06-23T10:56:55+08:00 ] 127.0.0.1 /index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2016-06-23T11:00:39+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-06-23T12:17:22+08:00 ] 127.0.0.1 /Index/cart.html
+ERR: 非法操作:cart
+
+[ 2016-06-23T12:20:13+08:00 ] 127.0.0.1 /product_list.html
+ERR: 无法加载控制器:Product_list
+
+[ 2016-06-23T12:22:32+08:00 ] 127.0.0.1 /product_list.html
+ERR: 无法加载控制器:Product_list
+
+[ 2016-06-23T12:23:00+08:00 ] 127.0.0.1 /my.html
+ERR: 无法加载控制器:My
+
+[ 2016-06-23T12:25:01+08:00 ] 127.0.0.1 /news.html
+ERR: 无法加载控制器:News
+
+[ 2016-06-23T12:26:38+08:00 ] 127.0.0.1 /my.html
+ERR: 无法加载控制器:My
+
+[ 2016-06-23T12:26:47+08:00 ] 127.0.0.1 /my.html
+ERR: 无法加载控制器:My
+
+[ 2016-06-23T12:35:07+08:00 ] 127.0.0.1 /my.html
+ERR: 无法加载控制器:My
+
+[ 2016-06-23T12:36:01+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : condition="Think.session.UserNum == null
+
+[ 2016-06-23T12:36:27+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : condition="$Think.session.UserNum == null
+
+[ 2016-06-23T12:36:36+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : condition="$Think.session.UserNum eq null
+
+[ 2016-06-23T12:36:42+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : condition="$Think.session.UserNum neq null
+
+[ 2016-06-23T12:36:43+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : condition="$Think.session.UserNum neq null
+
+[ 2016-06-23T12:36:43+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : condition="$Think.session.UserNum neq null
+
+[ 2016-06-23T12:37:12+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : condition="$Think.session.UserNum neq null
+
+[ 2016-06-23T12:37:13+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : condition="$Think.session.UserNum neq null
+
+[ 2016-06-23T12:37:13+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : condition="$Think.session.UserNum neq null
+
+[ 2016-06-23T12:37:14+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : condition="$Think.session.UserNum neq null
+
+[ 2016-06-23T12:37:35+08:00 ] 127.0.0.1 /my.html
+ERR: 无法加载控制器:My
+
+[ 2016-06-23T12:43:29+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T12:43:51+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T12:48:14+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T12:49:32+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T12:49:33+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T12:50:24+08:00 ] 127.0.0.1 /Index/User/login
+ERR: 非法操作:User
+
+[ 2016-06-23T12:50:33+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T12:50:45+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T12:52:18+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T12:52:33+08:00 ] 127.0.0.1 /Index/createCode
+ERR: 非法操作:createCode
+
+[ 2016-06-23T13:51:09+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T13:51:11+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T13:51:50+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T13:52:35+08:00 ] 127.0.0.1 /User/createCode
+ERR: 非法操作:createCode
+
+[ 2016-06-23T13:52:35+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T13:53:05+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:05:38+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:07:23+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:07:35+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:07:51+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:11:39+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:11:45+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:11:47+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:11:59+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:12:02+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:12:13+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:12:21+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:12:30+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:12:44+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:12:47+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:13:50+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:14:38+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:14:39+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:14:39+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:14:39+08:00 ] 127.0.0.1 /Index/verifyImg
+ERR: 非法操作:verifyImg
+
+[ 2016-06-23T14:45:37+08:00 ] 127.0.0.1 /User/checkLogin
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com )' at line 1
+ [ SQL语句 ] : SELECT `Email`,`NickName`,`TrueName` FROM `customerinfo` WHERE ( Email=874847721@qq.com ) 
+
+[ 2016-06-23T14:53:14+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0097s ]
+SQL: SELECT `Email`,`NickName`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' and UserPwd = '123' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2016-06-23T14:53:24+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0130s ]
+SQL: SELECT `Email`,`NickName`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' and UserPwd = '123' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-06-23T14:54:25+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0061s ]
+SQL: SELECT `Email`,`NickName`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' and UserPwd = '123' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2016-06-23T14:54:30+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002221s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0131s ]
+SQL: SELECT `Email`,`NickName`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' and UserPwd = '3' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2016-06-23T14:55:03+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0127s ]
+SQL: SELECT `Email`,`NickName`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' and UserPwd = '123222' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001015s ]
+
+[ 2016-06-23T14:56:18+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002436s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0132s ]
+SQL: SELECT `Email`,`NickName`,`TrueName` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2016-06-23T14:56:25+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0126s ]
+SQL: SELECT `Email`,`NickName`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' and UserPwd = '123' )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2016-06-23T14:56:28+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002066s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0133s ]
+SQL: SELECT `Email`,`NickName`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' and UserPwd = '1232' )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2016-06-23T14:58:29+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0128s ]
+SQL: SELECT `Email`,`NickName`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' and UserPwd = '123' and DelFlag = 0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2016-06-23T15:10:53+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0129s ]
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' and UserPwd = '123' and DelFlag = 0 ) 
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' and UserPwd = '123' and DelFlag = 0 ) 
+
+[ 2016-06-23T15:12:16+08:00 ] 127.0.0.1 /User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: UserNum G:\MyPHPWeb\TpProject\Application\Book\Runtime\Cache\Home\a481510fb52617b8c2b7f85a93046d9a.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002104s ]
+
+[ 2016-06-23T15:12:20+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0132s ]
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '23' and DelFlag = 0 ) 
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '23' and DelFlag = 0 ) 
+
+[ 2016-06-23T15:13:09+08:00 ] 127.0.0.1 /User/checkLogin
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+
+[ 2016-06-23T15:13:14+08:00 ] 127.0.0.1 /User/checkLogin
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+
+[ 2016-06-23T15:13:35+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002252s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0124s ]
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+
+[ 2016-06-23T15:14:20+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0124s ]
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+
+[ 2016-06-23T15:17:57+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0141s ]
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+
+[ 2016-06-23T15:20:50+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0128s ]
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty G:\MyPHPWeb\TpProject\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') G:\MyPHPWeb\TpProject\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-06-23T15:21:26+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002723s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0075s ]
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+
+[ 2016-06-23T15:23:12+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001461s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0139s ]
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Filename cannot be empty G:\MyPHPWeb\TpProject\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+NOTIC: [2] include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.;C:\php\pear') G:\MyPHPWeb\TpProject\ThinkPHP\Library\Think\Think.class.php 第 314 行.
+
+[ 2016-06-23T15:23:27+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0134s ]
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+ERR: 1054:Unknown column 'Emwail' in 'field list'
+ [ SQL语句 ] : SELECT `Emwail`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 ) 
+
+[ 2016-06-23T15:24:11+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001732s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0134s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 )  [ RunTime:0.0006s ]
+
+[ 2016-06-23T15:24:25+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0067s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 )  [ RunTime:0.0002s ]
+
+[ 2016-06-23T15:24:48+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0128s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' and UserPwd = '123' and DelFlag = 0 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001278s ]
+
+[ 2016-06-23T15:24:59+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002471s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0061s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' and UserPwd = '123' and DelFlag = 0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 47 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2016-06-23T15:25:35+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0139s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' and UserPwd = '1‘ || 1 =1' and DelFlag = 0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2016-06-23T15:26:24+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002244s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0134s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2016-06-23T15:26:31+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002482s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0130s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 47 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2016-06-23T15:27:00+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003338s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0132s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' && DelFlag = 0 )' at line 1
+ [ SQL语句 ] : SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123 ' || 1=1' && DelFlag = 0 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' && DelFlag = 0 )' at line 1
+ [ SQL语句 ] : SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123 ' || 1=1' && DelFlag = 0 ) 
+
+[ 2016-06-23T15:27:04+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0129s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' && DelFlag = 0 )' at line 1
+ [ SQL语句 ] : SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123 ' || 1=1' && DelFlag = 0 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' && DelFlag = 0 )' at line 1
+ [ SQL语句 ] : SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123 ' || 1=1' && DelFlag = 0 ) 
+
+[ 2016-06-23T15:27:20+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0137s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' && DelFlag = 0 )' at line 1
+ [ SQL语句 ] : SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123 ' || 1=1' && DelFlag = 0 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' && DelFlag = 0 )' at line 1
+ [ SQL语句 ] : SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123 ' || 1=1' && DelFlag = 0 ) 
+
+[ 2016-06-23T15:29:43+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0130s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123 ' || 1=1 || '' && DelFlag = 0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 47 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-06-23T15:29:46+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0124s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123 ' || 1=1 || '' && DelFlag = 0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 47 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2016-06-23T15:38:24+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0143s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email=123 && UserPwd = 123 && DelFlag = 0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2016-06-23T15:38:34+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0066s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com && UserPwd = 123 \' || 1=1 || \' && DelFlag = 0 )' at line 1
+ [ SQL语句 ] : SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email=874847721@qq.com && UserPwd = 123 \' || 1=1 || \' && DelFlag = 0 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com && UserPwd = 123 \' || 1=1 || \' && DelFlag = 0 )' at line 1
+ [ SQL语句 ] : SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email=874847721@qq.com && UserPwd = 123 \' || 1=1 || \' && DelFlag = 0 ) 
+
+[ 2016-06-23T15:38:59+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0124s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com && UserPwd = 123 && DelFlag = 0 )' at line 1
+ [ SQL语句 ] : SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email=874847721@qq.com && UserPwd = 123 && DelFlag = 0 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com && UserPwd = 123 && DelFlag = 0 )' at line 1
+ [ SQL语句 ] : SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email=874847721@qq.com && UserPwd = 123 && DelFlag = 0 ) 
+
+[ 2016-06-23T15:39:01+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0126s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com && UserPwd = 123 && DelFlag = 0 )' at line 1
+ [ SQL语句 ] : SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email=874847721@qq.com && UserPwd = 123 && DelFlag = 0 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com && UserPwd = 123 && DelFlag = 0 )' at line 1
+ [ SQL语句 ] : SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email=874847721@qq.com && UserPwd = 123 && DelFlag = 0 ) 
+
+[ 2016-06-23T15:39:05+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002122s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0130s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com && UserPwd = 123 && DelFlag = 0 )' at line 1
+ [ SQL语句 ] : SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email=874847721@qq.com && UserPwd = 123 && DelFlag = 0 ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com && UserPwd = 123 && DelFlag = 0 )' at line 1
+ [ SQL语句 ] : SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email=874847721@qq.com && UserPwd = 123 && DelFlag = 0 ) 
+
+[ 2016-06-23T15:39:41+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0076s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' && UserPwd = '213' && DelFlag = 0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2016-06-23T15:39:49+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0125s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '213' && DelFlag = 0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2016-06-23T15:39:52+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0131s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123 \' || 1=1 || \'' && DelFlag = 0 )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2016-06-23T15:39:55+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0128s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 47 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-06-23T15:50:11+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0129s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='123' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2016-06-23T15:57:14+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0135s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 56 行.
+NOTIC: [8] Undefined index: Email G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 57 行.
+NOTIC: [8] Undefined index: NickName G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2016-06-23T15:57:15+08:00 ] 127.0.0.1 /User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-06-23T15:58:12+08:00 ] 127.0.0.1 /User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-06-23T16:02:27+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0127s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 56 行.
+NOTIC: [8] Undefined index: Email G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 57 行.
+NOTIC: [8] Undefined index: NickName G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2016-06-23T16:14:55+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002112s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0128s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 56 行.
+NOTIC: [8] Undefined index: Email G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 57 行.
+NOTIC: [8] Undefined index: NickName G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2016-06-23T16:15:59+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0137s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 56 行.
+NOTIC: [8] Undefined index: Email G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 57 行.
+NOTIC: [8] Undefined index: NickName G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 58 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2016-06-23T17:01:53+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0093s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2016-06-23T21:20:27+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002127s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0156s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2016-06-23T21:28:54+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0127s ]
+SQL: SELECT `Email`,`NickName`,`State` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2016-06-23T21:44:34+08:00 ] 127.0.0.1 /User/modifyuserinfo.html
+ERR: 非法操作:modifyuserinfo
+
+[ 2016-06-23T22:09:47+08:00 ] 127.0.0.1 /User/modifyuserinfo.html
+ERR: 非法操作:modifyuserinfo
+
+[ 2016-06-23T22:15:34+08:00 ] 127.0.0.1 /User/modifyuserinfo.html
+ERR: 模板不存在:../Home/View/User/modifyuserinfo.html.html
+
+[ 2016-06-23T22:15:42+08:00 ] 127.0.0.1 /User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-06-23T22:16:01+08:00 ] 127.0.0.1 /User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-06-23T22:16:15+08:00 ] 127.0.0.1 /User/css/style.css
+ERR: 非法操作:css
+
+[ 2016-06-23T22:48:25+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0153s ]
+SQL: SELECT `Email`,`NickName`,`State`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 56 行.
+NOTIC: [8] Undefined index: TrueName G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2016-06-23T22:57:50+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0137s ]
+SQL: SELECT `Email`,`NickName`,`State`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 56 行.
+NOTIC: [8] Undefined index: TrueName G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2016-06-23T22:58:26+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0129s ]
+SQL: SELECT `Email`,`NickName`,`State`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2016-06-23T23:31:24+08:00 ] 127.0.0.1 /User/success.html
+ERR: 非法操作:success
+
+[ 2016-06-23T23:35:30+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0147s ]
+SQL: SELECT `Email`,`NickName`,`State`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2016-06-23T23:37:36+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0130s ]
+SQL: SELECT `Email`,`NickName`,`State`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2016-06-23T23:41:51+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0133s ]
+SQL: SELECT `Email`,`NickName`,`State`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 56 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2016-06-23T23:49:21+08:00 ] 127.0.0.1 /User/modifyUserInfo
+ERR: Think\Model:limmit方法不存在！
+

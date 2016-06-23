@@ -41,6 +41,36 @@ class IndexController extends Controller {
     public function footer(){
     	$this->display();
     }
+    
+    /*
+     * 【生成验证码】
+     *
+     */
+    public function  createCode(){
+    	$config =    array(
+    				$secode = array("loginCode"),
+    			    'fontSize'    =>    30,    // 验证码字体大小
+    			    'length'      =>    5,     // 验证码位数
+    			    'useNoise'    =>    true, // 关闭验证码杂点
+    			);
+    	 
+    	$img = new \Think\Verify($config);
+    	$img -> entry();
+    	
+    }
+    
+    public function showCode(){
+    	echo $this-> check_verify("Tnvbe12");
+    	
+    }
 
+    
+    
+    // 检测输入的验证码是否正确，$code为用户输入的验证码字符串
+    function check_verify($code, $id = ''){
+    	    $verify = new \Think\Verify();
+    	    return $verify->check($code, $id);
+    	}
+    
 	
 }
