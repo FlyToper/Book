@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>留言板</title>
+ </head>
+ <body>
+	<div>
+		<form action="messageboard.php" method="post">
+			<span>标题：</span><input type="text" name="title"><br/><br/>
+			<span>内容:</span>
+			<textarea name= "content"></textarea>
+			<br />
+			<input type="submit" value="提交留言">
+		</form>
+	</div>
+ </body>
+</html>
