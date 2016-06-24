@@ -2,7 +2,7 @@
   <table cellspacing="0" class="headtable">
     <tr>
       <td><img src="{$Think.IMG_URL}logo.gif" width="95" height="30" /></td>
-      <td style="text-align:right"><img src="{$Think.IMG_URL}cart.gif" width="26" height="23" style="margin-bottom:-4px"/>&nbsp;<a href="/Cat">购物车</a>　|　<a href="#">帮助中心</a>　|　<if condition="$Think.session.UserNum == null"> <a href="User/login">登录</a><else /> <a href="/User/my">{$Think.session.NickName}</a> </if>　|　<a href="register.html">新用户注册</a></td>
+      <td style="text-align:right"><img src="{$Think.IMG_URL}cart.gif" width="26" height="23" style="margin-bottom:-4px"/>&nbsp;<a href="/Cat">购物车</a>　|　<a href="#">帮助中心</a>　|　<if condition="$Think.session.UserNum == null"> <a href="/User/login">登录</a><else /> <a href="/User/my">{$Think.session.NickName}  </a>　|　<a href="/User/exits">退出</a> </if>　|　<a href="register.html">新用户注册</a></td>
     </tr>
   </table>
 </div>

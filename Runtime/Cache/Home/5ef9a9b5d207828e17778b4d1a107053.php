@@ -15,7 +15,7 @@
   <table cellspacing="0" class="headtable">
     <tr>
       <td><img src="<?php echo (IMG_URL); ?>logo.gif" width="95" height="30" /></td>
-      <td style="text-align:right"><img src="<?php echo (IMG_URL); ?>cart.gif" width="26" height="23" style="margin-bottom:-4px"/>&nbsp;<a href="/Cat">购物车</a>　|　<a href="#">帮助中心</a>　|　<?php if($_SESSION['UserNum']== null): ?><a href="User/login">登录</a><?php else: ?> <a href="my.html">我的帐户</a><?php endif; ?>　|　<a href="register.html">新用户注册</a></td>
+      <td style="text-align:right"><img src="<?php echo (IMG_URL); ?>cart.gif" width="26" height="23" style="margin-bottom:-4px"/>&nbsp;<a href="/Cat">购物车</a>　|　<a href="#">帮助中心</a>　|　<?php if($_SESSION['UserNum']== null): ?><a href="/User/login">登录</a><?php else: ?> <a href="/User/my"><?php echo (session('NickName')); ?>  </a>　|　<a href="/User/exits">退出</a><?php endif; ?>　|　<a href="register.html">新用户注册</a></td>
     </tr>
   </table>
 </div>
@@ -25,7 +25,7 @@
 <div id="divsearch"><table width="100%" border="0" cellspacing="0">
   <tr>
     <td style="text-align:right; padding-right:220px">Search
-  <input type="text" name="textfield" class="inputtable"/>
+  <input type="text" name="textfield" class="inputtable" id="txtSerach"/>
 <!--<input name="searchbutton" type="image" src="<?php echo (IMG_URL); ?>serchbutton.gif" style=" margin-bottom:-4px"/>-->
 <a href="search.html"><img src="<?php echo (IMG_URL); ?>serchbutton.gif" border="0" style="margin-bottom:-4px"/></a></td>
   </tr>

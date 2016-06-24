@@ -19,7 +19,7 @@
   <table cellspacing="0" class="headtable">
     <tr>
       <td><img src="<?php echo (IMG_URL); ?>logo.gif" width="95" height="30" /></td>
-      <td style="text-align:right"><img src="<?php echo (IMG_URL); ?>cart.gif" width="26" height="23" style="margin-bottom:-4px"/>&nbsp;<a href="/Cat">购物车</a>　|　<a href="#">帮助中心</a>　|　<?php if($_SESSION['UserNum']== null): ?><a href="User/login">登录</a><?php else: ?> <a href="/User/my"><?php echo (session('NickName')); ?></a><?php endif; ?>　|　<a href="register.html">新用户注册</a></td>
+      <td style="text-align:right"><img src="<?php echo (IMG_URL); ?>cart.gif" width="26" height="23" style="margin-bottom:-4px"/>&nbsp;<a href="/Cat">购物车</a>　|　<a href="#">帮助中心</a>　|　<?php if($_SESSION['UserNum']== null): ?><a href="/User/login">登录</a><?php else: ?> <a href="/User/my"><?php echo (session('NickName')); ?>  </a>　|　<a href="/User/exits">退出</a><?php endif; ?>　|　<a href="register.html">新用户注册</a></td>
     </tr>
   </table>
 </div>
@@ -73,7 +73,7 @@
                                 &nbsp;&nbsp;记住我的登录状态</td>
                             </tr>
                             <tr>
-                              <td colspan="2" style="padding-top:10px; text-align:center"><input type='button' onclick='logincheck()' value='登 录' style="width:80px;font-size:20px;color:#000000;"/> </td>
+                              <td colspan="2" style="padding-top:10px; text-align:center"><input type='button' onclick='logincheck()' value='登 录' style="width:80px;font-size:20px;color:#000000;"/> <input type="hidden" value="<?php echo ($Referer); ?>"  id ="referer"/></td>
                             </tr>
                             <tr>
                               <td colspan="2" style="padding-top:10px; text-align:center">登录帮助&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帮助中心&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;忘记密码</td>

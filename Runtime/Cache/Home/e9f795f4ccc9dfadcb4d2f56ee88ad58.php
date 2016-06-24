@@ -20,7 +20,7 @@
   <table cellspacing="0" class="headtable">
     <tr>
       <td><img src="<?php echo (IMG_URL); ?>logo.gif" width="95" height="30" /></td>
-      <td style="text-align:right"><img src="<?php echo (IMG_URL); ?>cart.gif" width="26" height="23" style="margin-bottom:-4px"/>&nbsp;<a href="/Cat">购物车</a>　|　<a href="#">帮助中心</a>　|　<?php if($_SESSION['UserNum']== null): ?><a href="User/login">登录</a><?php else: ?> <a href="/User/my"><?php echo (session('NickName')); ?></a><?php endif; ?>　|　<a href="register.html">新用户注册</a></td>
+      <td style="text-align:right"><img src="<?php echo (IMG_URL); ?>cart.gif" width="26" height="23" style="margin-bottom:-4px"/>&nbsp;<a href="/Cat">购物车</a>　|　<a href="#">帮助中心</a>　|　<?php if($_SESSION['UserNum']== null): ?><a href="/User/login">登录</a><?php else: ?> <a href="/User/my"><?php echo (session('NickName')); ?>  </a>　|　<a href="/User/exits">退出</a><?php endif; ?>　|　<a href="register.html">新用户注册</a></td>
     </tr>
   </table>
 </div>
@@ -109,10 +109,16 @@
   </tr>
   <tr>
     <td style="text-align:right">性别：</td>
-    <td colspan="2">&nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton" />
-      男
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton" />
-女&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton" />保密</td>
+    <td colspan="2">&nbsp;&nbsp;
+    <?php if($Info[0]['gender'] == 'man'): ?>&nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton"  checked="checked"/>男
+    <?php else: ?>
+	    &nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton" />男<?php endif; ?>
+    <?php if($Info[0]['gender'] == 'woman'): ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton"  checked="checked" />女
+    <?php else: ?>
+    	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton" />女<?php endif; ?>
+	 <?php if($Info[0]['gender'] == 'baomi'): ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton"  checked="checked" />保密
+	    <?php else: ?>
+	    	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton" />保密<?php endif; ?></td>
     </tr>
   <tr>
     <td style="text-align:right">联系方式：</td>
@@ -132,18 +138,18 @@
 		  
 		  
 		  <table width="100%" border="0" cellspacing="2" class="upline">
+		  	<tr><td width="16%" style="text-align:right; width:20%">已选问题：</td><td  width="47%" style="width:50%"><?php echo ($Info[0]['findpwdquestion']); ?></td><td></td></tr>
             <tr>
               <td width="16%" style="text-align:right; width:20%">密码保护问题：</td>
-              <td width="47%" style="width:50%"><select name="select" class="textinput" style="width:230px; height:20px">
+              <td width="47%" style="width:50%"><select name="select" class="textinput" style="width:230px; height:26px;border-radius:6px;">
                   <option value="">- 选择一个问题 -</option>
-                  <option value="您的宠物的名字？" >您的宠物的名字？</option>
-                  <option value="您就读的第一所学校的名称？" >您就读的第一所学校的名称？</option>
-                  <option value="少年时代心目中的英雄是谁？" >少年时代心目中的英雄是谁？</option>
-                  <option value="您最喜欢的休闲运动是什么？" >您最喜欢的休闲运动是什么？</option>
-                  <option value="您最喜欢哪支运动队？" >您最喜欢哪支运动队？</option>
-                  <option value="您最喜欢的运动员是谁？" >您最喜欢的运动员是谁？</option>
-                  <option value="您的第一辆汽车或自行车是什么牌子的？" >您的第一辆汽车或自行车是什么牌子的？</option>
+                 
+                  <?php if(is_array($Answer)): foreach($Answer as $key=>$answer): if(trim($Info[0]['findpwdquestion']) == trim($answer.question)): ?><option value="<?php echo ($Info[0]['findpwdquestion']); ?>"  selected="selected"><?php echo ($Info[0]['findpwdquestion']); ?></option>
+                  	<?php else: ?>
+                  		<option value="<?php echo ($answer["question"]); ?>"  ><?php echo ($answer["question"]); ?></option><?php endif; endforeach; endif; ?>
+
                 </select>
+               
               </td>
               <td>&nbsp;</td>
             </tr>
@@ -152,11 +158,11 @@
               <td colspan="2"><input name="text3" type="text" class="textinput"/>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#999999">不能少于4个字符，不区分大小写</font></td>
             </tr>
-            <tr>
+            <!-- <tr>
               <td style="text-align:right">备用邮箱：</td>
               <td><input name="text3" type="text" class="textinput"/></td>
               <td>&nbsp;</td>
-            </tr>
+            </tr> -->
             <tr>
               <td style="text-align:right">&nbsp;</td>
               <td>&nbsp;</td>
@@ -166,8 +172,13 @@
 		  <table width="100%" border="0" cellspacing="2" class="upline">
             <tr>
               <td style="text-align:right; width:20%">输入校验码：</td>
-              <td style="width:50%"><input name="text4" type="text" class="textinput"/></td>
+              <td style=""><input name="text4" type="text" class="textinput"/></td>
               <td>&nbsp;</td>
+            </tr>
+            <tr>
+            	<td style="text-align:right; width:20%"></td>
+            	<td  style="padding-left: 2%;"><img style="border-style:solid;border-width:1px;border-radius:6px;border-color:gray" src="/User/createModifyUserInfoCode" alt="验证密" onclick=""/> </td>
+            	<td>&nbsp; </td>
             </tr>
             <tr>
               <td style="text-align:right">&nbsp;</td>

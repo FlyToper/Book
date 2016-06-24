@@ -83,10 +83,22 @@
   </tr>
   <tr>
     <td style="text-align:right">性别：</td>
-    <td colspan="2">&nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton" />
-      男
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton" />
-女&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton" />保密</td>
+    <td colspan="2">&nbsp;&nbsp;
+    <if condition="$Info[0]['gender'] == 'man'">
+    	 &nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton"  checked="checked"/>男
+    <else />
+	    &nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton" />男
+    </if>
+    <if condition="$Info[0]['gender'] == 'woman'">
+    	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton"  checked="checked" />女
+    <else />
+    	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton" />女
+    </if>
+	 <if condition="$Info[0]['gender'] == 'baomi'">
+	    	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton"  checked="checked" />保密
+	    <else />
+	    	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="radiobutton" value="radiobutton" />保密
+	    </if></td>
     </tr>
   <tr>
     <td style="text-align:right">联系方式：</td>
@@ -106,18 +118,22 @@
 		  
 		  
 		  <table width="100%" border="0" cellspacing="2" class="upline">
+		  	<tr><td width="16%" style="text-align:right; width:20%">已选问题：</td><td  width="47%" style="width:50%">{$Info[0]['findpwdquestion']}</td><td></td></tr>
             <tr>
               <td width="16%" style="text-align:right; width:20%">密码保护问题：</td>
-              <td width="47%" style="width:50%"><select name="select" class="textinput" style="width:230px; height:20px">
+              <td width="47%" style="width:50%"><select name="select" class="textinput" style="width:230px; height:26px;border-radius:6px;">
                   <option value="">- 选择一个问题 -</option>
-                  <option value="您的宠物的名字？" >您的宠物的名字？</option>
-                  <option value="您就读的第一所学校的名称？" >您就读的第一所学校的名称？</option>
-                  <option value="少年时代心目中的英雄是谁？" >少年时代心目中的英雄是谁？</option>
-                  <option value="您最喜欢的休闲运动是什么？" >您最喜欢的休闲运动是什么？</option>
-                  <option value="您最喜欢哪支运动队？" >您最喜欢哪支运动队？</option>
-                  <option value="您最喜欢的运动员是谁？" >您最喜欢的运动员是谁？</option>
-                  <option value="您的第一辆汽车或自行车是什么牌子的？" >您的第一辆汽车或自行车是什么牌子的？</option>
+                 
+                  <foreach name="Answer"  item="answer">
+                  	<if condition="trim($Info[0]['findpwdquestion']) == trim($answer.question)">
+                  		<option value="{$Info[0]['findpwdquestion']}"  selected="selected">{$Info[0]['findpwdquestion']}</option>
+                  	<else />
+                  		<option value="{$answer.question}"  >{$answer.question}</option>
+                  	</if>	
+                  </foreach>
+
                 </select>
+               
               </td>
               <td>&nbsp;</td>
             </tr>
@@ -126,11 +142,11 @@
               <td colspan="2"><input name="text3" type="text" class="textinput"/>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#999999">不能少于4个字符，不区分大小写</font></td>
             </tr>
-            <tr>
+            <!-- <tr>
               <td style="text-align:right">备用邮箱：</td>
               <td><input name="text3" type="text" class="textinput"/></td>
               <td>&nbsp;</td>
-            </tr>
+            </tr> -->
             <tr>
               <td style="text-align:right">&nbsp;</td>
               <td>&nbsp;</td>
@@ -140,8 +156,13 @@
 		  <table width="100%" border="0" cellspacing="2" class="upline">
             <tr>
               <td style="text-align:right; width:20%">输入校验码：</td>
-              <td style="width:50%"><input name="text4" type="text" class="textinput"/></td>
+              <td style=""><input name="text4" type="text" class="textinput"/></td>
               <td>&nbsp;</td>
+            </tr>
+            <tr>
+            	<td style="text-align:right; width:20%"></td>
+            	<td  style="padding-left: 2%;"><img style="border-style:solid;border-width:1px;border-radius:6px;border-color:gray" src="/User/createModifyUserInfoCode" alt="验证密" onclick=""/> </td>
+            	<td>&nbsp; </td>
             </tr>
             <tr>
               <td style="text-align:right">&nbsp;</td>
