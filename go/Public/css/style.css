@@ -12,11 +12,18 @@
 	vertical-align:top;
 }
 
+
+/**********【新添加的CSS】**************/
 input{
 	padding:5px;
 	border-radius:6px;
 }
 
+.myActive{
+	color:black;
+}
+
+/************************/
 
 a{
 	font-size: 12px;

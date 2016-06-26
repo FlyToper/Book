@@ -164,6 +164,30 @@ class UserController extends Controller{
 	
 	
 	/*
+	 * 【展示修改密码页面】
+	 * 
+	 * 
+	 * 
+	 * */
+	public  function updatepwd(){
+		$this -> display(); 
+	}
+	
+	
+	/*
+	 * 【生成修密码验证码】
+	 *
+	 *
+	 *
+	 * */
+	public function createUpdatePwdCode(){
+		$this -> createCode("UpdatePwd");
+	}
+	
+	
+	
+	
+	/*
 	 * 【测试】
 	 * 
 	 * 

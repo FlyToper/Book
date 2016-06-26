@@ -8,7 +8,7 @@
 <meta name="description" content="reefdesign" />
 <meta name="keywords" content="reefdesign" />
 <title>电子书城</title>
-<link rel="shortcut icon" href="favicon.ico" >
+<link rel="shortcut icon" href="<?php echo (IMG_URL); ?>favicon.ico" >
 <link rel="stylesheet" rev="stylesheet" href="<?php echo (CSS_URL); ?>style.css" type="text/css" media="all" />
 
 </head>
@@ -55,7 +55,11 @@
         </tr>
         <tr>
           <td class="listtd"><img src="<?php echo (IMG_URL); ?>miniicon.gif" width="9" height="6" />&nbsp;&nbsp;&nbsp;&nbsp;
-		  <a href="/User/modifyUserInfo">用户信息修改</a></td>
+		  <a class="myActive" href="javascript:void(0);" >用户信息修改</a></td>
+        </tr>
+        <tr>
+          <td class="listtd"><img src="<?php echo (IMG_URL); ?>miniicon.gif" width="9" height="6" />&nbsp;&nbsp;&nbsp;&nbsp;
+		  <a href="/User/updatepwd">密码修改</a></td>
         </tr>
 		
 <tr>
@@ -74,7 +78,7 @@
 
 		
       </table></td>
-      <td><div style="text-align:right; margin:5px 10px 5px 0px"><a href="index.html">首页</a>&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;<a href="cart.html">&nbsp;我的帐户</a>&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;&nbsp;用户信息修改</div>
+      <td><div style="text-align:right; margin:5px 10px 5px 0px"><a href="/Index">首页</a>&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;<a href="/User/my">&nbsp;我的帐户</a>&nbsp;&nbsp;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&nbsp;&nbsp;用户信息修改</div>
         
 		
 		
@@ -97,16 +101,7 @@
     <td style="padding-left:20px"><?php echo ($Info[0]['truename']); ?></td>
     <td>&nbsp;</td>
   </tr>
-  <tr>
-    <td style="text-align:right">修改密码：</td>
-    <td><input type="password" class="textinput"/></td>
-    <td><font color="#999999">密码设置至少6位，请区分大小写</font></td>
-  </tr>
-  <tr>
-    <td style="text-align:right">重复密码：</td>
-    <td><input type="password" class="textinput"/></td>
-    <td>&nbsp;</td>
-  </tr>
+  
   <tr>
     <td style="text-align:right">性别：</td>
     <td colspan="2">&nbsp;&nbsp;
