@@ -1,0 +1,36 @@
+[ 2016-07-15T07:57:41+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0166s ]
+SQL: SELECT `Email`,`NickName`,`State`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 68 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001245s ]
+
+[ 2016-07-15T07:57:54+08:00 ] 127.0.0.1 /User/sendEmailCode
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+NOTIC: [8] Undefined variable: random_code G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 238 行.
+NOTIC: [8192] Function ereg() is deprecated G:\MyPHPWeb\TpProject\Application\Book\Common\Common\Smtp.class.php 第 256 行.
+NOTIC: [8192] Function ereg_replace() is deprecated G:\MyPHPWeb\TpProject\Application\Book\Common\Common\Smtp.class.php 第 264 行.
+NOTIC: [8192] Function ereg_replace() is deprecated G:\MyPHPWeb\TpProject\Application\Book\Common\Common\Smtp.class.php 第 265 行.
+NOTIC: [8192] Function ereg_replace() is deprecated G:\MyPHPWeb\TpProject\Application\Book\Common\Common\Smtp.class.php 第 46 行.
+NOTIC: [8192] Function ereg() is deprecated G:\MyPHPWeb\TpProject\Application\Book\Common\Common\Smtp.class.php 第 256 行.
+NOTIC: [8192] Function ereg_replace() is deprecated G:\MyPHPWeb\TpProject\Application\Book\Common\Common\Smtp.class.php 第 264 行.
+NOTIC: [8192] Function ereg_replace() is deprecated G:\MyPHPWeb\TpProject\Application\Book\Common\Common\Smtp.class.php 第 265 行.
+NOTIC: [8192] Function ereg() is deprecated G:\MyPHPWeb\TpProject\Application\Book\Common\Common\Smtp.class.php 第 210 行.
+NOTIC: [8192] Function ereg() is deprecated G:\MyPHPWeb\TpProject\Application\Book\Common\Common\Smtp.class.php 第 210 行.
+NOTIC: [8192] Function ereg() is deprecated G:\MyPHPWeb\TpProject\Application\Book\Common\Common\Smtp.class.php 第 210 行.
+NOTIC: [8192] Function ereg() is deprecated G:\MyPHPWeb\TpProject\Application\Book\Common\Common\Smtp.class.php 第 210 行.
+NOTIC: [8192] Function ereg() is deprecated G:\MyPHPWeb\TpProject\Application\Book\Common\Common\Smtp.class.php 第 210 行.
+NOTIC: [8192] Function ereg() is deprecated G:\MyPHPWeb\TpProject\Application\Book\Common\Common\Smtp.class.php 第 210 行.
+NOTIC: [8192] Function ereg() is deprecated G:\MyPHPWeb\TpProject\Application\Book\Common\Common\Smtp.class.php 第 210 行.
+NOTIC: [8192] Function ereg() is deprecated G:\MyPHPWeb\TpProject\Application\Book\Common\Common\Smtp.class.php 第 210 行.
+NOTIC: [8192] Function ereg() is deprecated G:\MyPHPWeb\TpProject\Application\Book\Common\Common\Smtp.class.php 第 210 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001896s ]
+

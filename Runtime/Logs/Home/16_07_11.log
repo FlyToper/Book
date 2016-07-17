@@ -1,0 +1,11 @@
+[ 2016-07-11T08:01:36+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0149s ]
+SQL: SELECT `Email`,`NickName`,`State`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 67 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+

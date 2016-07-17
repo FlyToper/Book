@@ -1,6 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
+use Common\Common\Smtp;
 
 class UserController extends Controller{
 	
@@ -60,7 +61,7 @@ class UserController extends Controller{
 			$user_model = D('CustomerInfo');
 			
 			//去数据库验证用户编号和密码是否都正确
-			$info =  $user_model -> field('Email, NickName, State, TrueName') -> where("Email='%s' && UserPwd = '%s' && DelFlag = 0", array($usernum, $password)) -> select();
+			$info =  $user_model -> field('Email, NickName, State, TrueName') -> where("Email='%s' && UserPwd = '%s' && DelFlag = 0", array($usernum, md5($password))) -> select();
 			//var_dump($info);
 			
 			if(!empty($info)){
@@ -68,7 +69,8 @@ class UserController extends Controller{
 					session("UserNum", $info[0]["email"]);
 					session("NickName", $info[0]['nickname']);
 					session('TrueName', $info[0]['truename']);
-					
+					//e10adc3949ba59abbe56e057f20f883e
+					//e10adc3949ba59abbe56e057f20f883e
 					echo  'success';
 				}else{
 					echo 'error2';
@@ -80,7 +82,8 @@ class UserController extends Controller{
 			
 		}
 		catch(Exception $e){
-			echo "0000000000000000000";
+// 			echo "0000000000000000000";
+			$this -> display("Public/_404");
 		}
 		
 	}
@@ -185,7 +188,219 @@ class UserController extends Controller{
 	}
 	
 	
+	/*
+	 * 【验证用户输入的验证码】
+	 * 
+	 * @access private
+	 * @param $code 	用户输入的验证码
+	 * @param $id		验证码类型
+	 * @return boolean	返回值
+	 * 
+	 * */
+	private function check_verify($code, $id = ''){
+		$verify = new \Think\Verify();
+		return $verify->check($code, $id);
+	}
 	
+	/*
+	 * 【发送修改密码验证码】
+	 * 
+	 * @access private
+	 * @param string 	收件人邮箱
+	 * @return mixed
+	 * 
+	 * 
+	 * */
+	private function sendEmailCodeForUpdatePwd($email){
+		$subject = "密码修改";
+		$emailCode = $this->createRandomCode();//获取6位随机数
+		session("UpdatePwd_EmailCode", $emailCode);//保存随机数到session
+		
+		//邮件主题内容
+		$body = "你正在<span style='color:red;'>修改密码</span>，请输入如下邮箱验证码，如果非本人操作，请忽略！<br>";
+		$body .= "验证码：";
+		$body .= $emailCode;
+		
+		
+		return $this-> executeSendEmailCode($email, $subject, $body);
+		
+	}
+	
+	/*
+	 * 【产生随机数】
+	 * 
+	 * @access private
+	 * @return string 	6位随机数
+	 * 
+	 * */
+	private function createRandomCode(){
+		for($i= 0; $i < 6; $i ++){
+			$k = rand(1, 100);//获取随机数
+			$number = $k % 10;//获取随机数除10的余数
+			$random_code .= $number;	
+		}
+		
+		return $random_code;
+	}
+	
+	/*
+	 * 【检查邮箱的验证码】
+	 * 
+	 * @access public
+	 * @return string	返回验证结果
+	 * 
+	 * 
+	 * */
+	public function checkEmailCode(){
+		extract($_REQUEST);//从数组中变量导入当前列表
+		
+		try{
+			//判断验证类型是否为空
+			if(isset($type) && !empty($type)){
+				//判断验证码是否为空
+				if(isset($code) && !empty($code)){
+					//判断验证码的类型
+					if($type == "UpdatePwd"){
+						//判断验证码是否正确
+						if(session("UpdatePwd_EmailCode") == $code){
+							echo "success";
+						}else{
+							echo "error";
+						}
+					}else{
+						$this -> display("Public/_404");
+					}
+				}else{
+					$this -> display("Public/_404");
+				}
+			}else{
+				$this -> display("Public/_404");
+			}
+		}catch(Exception $e){
+			$this -> display("Public/_404");
+		}
+	}
+	
+	/*
+	 * 【发送邮件】
+	 * 
+	 * 
+	 * */
+	public function sendEmailCode(){
+		extract($_REQUEST);
+		try{
+			
+			if($type == "updatePwd"){//发送密码修改验证码
+				//判断验证码是否为空
+				if(isset($txtSendEmailCode) && !empty($txtSendEmailCode)){
+					//判断验证码是否正确
+					if($this->check_verify($txtSendEmailCode, "UpdatePwd")){
+						if(isset($email) && !empty($email)){
+							if($this->sendEmailCodeForUpdatePwd($email)){
+								//发送成功
+								echo "success";
+							}else{
+								//发送失败
+								echo "error2";
+							}
+						}else{
+							$this -> display("Public/_404");//邮箱错误
+						}
+					}else{
+						echo "error1";//验证码错误
+					}
+				}else{
+					$this -> display("Public/_404");//验证码为空
+				}
+				
+			}else{
+				$this -> display("Public/_404");//没有验证码类型
+			}
+		}catch(\Exception $e){
+			$this -> display("Public/_404");
+			
+		}
+	}
+	
+	/*
+	 * 【执行发送邮箱验证码】
+	 * @access private
+	 * @param string $smtpemailto	 收件人邮箱
+	 * @param string $mailsubject	 邮件主题
+	 * @param string $mailbody   	 邮件内容
+	 * @param string $mailtype		 邮件格式
+	 * @return boolean
+	 * 
+	 **/
+	private function executeSendEmailCode($smtpemailto, $mailsubject, $mailbody, $mailtype = "HTML"){
+		$config_mail = C('THINK_EMAIL');//获取配置信息
+		$smtpserver     =     $config_mail['SMTP_HOST'];//SMTP服务器
+		$smtpserverport =    $config_mail['SMTP_PORT'];//SMTP服务器端口
+		$smtpusermail     =     $config_mail['FROM_EMAIL'];//SMTP服务器的用户邮箱
+		$smtpuser         =     $config_mail['SMTP_USER'];//SMTP服务器的用户帐号
+		$smtppass         =     $config_mail['SMTP_PASS'];//SMTP服务器的用户密码
+		
+// 		$smtpemailto     =     "874847721@qq.com";//发送给谁
+// 		$mailsubject     =     "";//邮件主题
+		$mailtime        =    date("Y-m-d H:i:s");
+// 		$mailbody         =     "这是测试内容";//邮件内容
+		
+		$utfmailbody    =    iconv("UTF-8","GB2312",$mailbody);//转换邮件编码
+// 		$mailtype         =     "HTML";//邮件格式（HTML/TXT）,TXT为文本邮件
+		//return;
+		//echo "s";
+		
+		$smtp = new Smtp($smtpserver,$smtpserverport,true,$smtpuser,$smtppass);//这里面的一个true是表示使用身份验证,否则不使用身份验证.
+		$smtp->debug = FALSE;//是否显示发送的调试信息 FALSE or TRUE
+		
+		$ret = $smtp->sendmail($smtpemailto, $smtpusermail, $mailsubject, $utfmailbody, $mailtype);
+		
+		return  $ret;
+	}
+	
+	/*
+	 * 【执行更新密码】
+	 * 
+	 *@access public
+	 *@return string 	返回执行结果
+	 * */
+	public function executeUpdatePwd(){
+		if($this->isLogin()){
+			extract($_REQUEST);
+			
+			try{
+				if(isset($newPwd1) && !empty($newPwd2)){
+					if(isset($newPwd1) && !empty($newPwd2)){
+						if($newPwd1 == $newPwd2){
+							$u = D("CustomerInfo");
+							$rst = $u->updatePwd(session("UserNum"), $newPwd1);
+							if($rst === false){
+								echo "error1";
+							}else{
+								if($rst > 0){
+									echo "success";
+								}else{
+									echo "error1";
+								}
+							}
+						}else{
+							echo "error2";
+						}
+					}else{
+						echo "error1";
+					}
+				}else{
+					echo "error1";
+				}
+					
+				
+			}catch(Exception $e){
+				$this -> display("Public/_404");
+			}
+		}else{
+			redirect('/User/login?referer=/User/updatepwd', 0, '页面跳转中...');
+		}
+	}
 	
 	/*
 	 * 【测试】

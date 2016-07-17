@@ -1,0 +1,27 @@
+[ 2016-06-28T08:34:44+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0085s ]
+SQL: SELECT `Email`,`NickName`,`State`,`TrueName` FROM `customerinfo` WHERE ( Email='8748477212@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-06-28T08:34:55+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0107s ]
+SQL: SELECT `Email`,`NickName`,`State`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '123' && DelFlag = 0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 67 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2016-06-28T08:35:49+08:00 ] 127.0.0.1 /User/product_list.html
+ERR: 非法操作:product_list
+
+[ 2016-06-28T08:36:06+08:00 ] 127.0.0.1 /User/product_list.html
+ERR: 非法操作:product_list
+

@@ -30,3 +30,11 @@ function logincheck(){
 		alert("用户名或者密码不能为空！");
 	}
 }
+
+/*回车键的监听*/
+$('#password').bind('keydown',{}, function(event) {
+	if (event.keyCode == "13") {
+		//回车执行查询
+		logincheck();
+	}
+});

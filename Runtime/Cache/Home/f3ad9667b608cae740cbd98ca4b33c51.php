@@ -1,7 +1,7 @@
-<html>
+<?php if (!defined('THINK_PATH')) exit();?><html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <link rel="shortcut icon" href="{$Think.const.IMG_URL}favicon.ico" >
+    <link rel="shortcut icon" href="<?php echo (IMG_URL); ?>favicon.ico" >
     <title>页面出错了</title>
     <style type="text/css">
     	body{
@@ -12,7 +12,7 @@
 </head>
 <body>
     <div style="padding:0px;">
-        <img src="{$Think.const.IMG_URL}404.gif" width="100%"/>
+        <img src="<?php echo (IMG_URL); ?>404.gif" width="100%"/>
     </div>
 </body>
 </html>

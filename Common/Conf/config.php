@@ -21,4 +21,18 @@ return array(
 		
 		
 		//'TMPL_EXCEPTION_FILE'   =>  MODULE_PATH.'View/Public/_404.html',// 异常页面的模板文件
+		
+		'THINK_EMAIL' => array(
+				             'SMTP_HOST'   => 'smtp.163.com', //SMTP服务器
+				             'SMTP_PORT'   => '25', //SMTP服务器端口
+				             'SMTP_USER'   => 'systemowner2@163.com', //SMTP服务器用户名
+				             'SMTP_PASS'   => 'chen123', //SMTP服务器密码
+				             'FROM_EMAIL'  => 'systemowner2@163.com', //发件人EMAIL
+				             'FROM_NAME'   => 'cc', //发件人名称
+				             'REPLY_EMAIL' => '', //回复EMAIL（留空则为发件人EMAIL）
+				             'REPLY_NAME'  => '', //回复名称（留空则为发件人名称）
+				              ),
+		
+		'LOAD_EXT_FILE' => 'Smtp',
+		
 );
