@@ -1,0 +1,48 @@
+[ 2016-07-18T16:19:31+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0087s ]
+SQL: SELECT `Email`,`NickName`,`State`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '202cb962ac59075b964b07152d234b70' && DelFlag = 0 )  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2016-07-18T16:19:36+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0124s ]
+SQL: SELECT `Email`,`NickName`,`State`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = 'e10adc3949ba59abbe56e057f20f883e' && DelFlag = 0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 68 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-07-18T16:19:45+08:00 ] 127.0.0.1 /User/orderlist.html
+ERR: 非法操作:orderlist
+
+[ 2016-07-18T16:19:59+08:00 ] 127.0.0.1 /User/orderlist.html
+ERR: 非法操作:orderlist
+
+[ 2016-07-18T17:46:46+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0134s ]
+SQL: SELECT `Email`,`NickName`,`State`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = '202cb962ac59075b964b07152d234b70' && DelFlag = 0 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2016-07-18T17:46:49+08:00 ] 127.0.0.1 /User/checkLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002141s ]
+SQL: SHOW COLUMNS FROM `customerinfo` [ RunTime:0.0128s ]
+SQL: SELECT `Email`,`NickName`,`State`,`TrueName` FROM `customerinfo` WHERE ( Email='874847721@qq.com' && UserPwd = 'e10adc3949ba59abbe56e057f20f883e' && DelFlag = 0 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: State G:\MyPHPWeb\TpProject\Application\Book\Home\Controller\UserController.class.php 第 68 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+

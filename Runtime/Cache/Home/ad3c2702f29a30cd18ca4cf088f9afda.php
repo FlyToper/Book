@@ -162,12 +162,12 @@
 										
 										<tr class="updatePwd-step3" style="display: none">
 											<td style="text-align: right">新密码：</td>
-											<td><input type="text"  class="textinput" id="txtNewPwd1"/> </td>
+											<td><input type="password"  class="textinput" id="txtNewPwd1"/> </td>
 											<td>&nbsp;</td>
 										</tr>
 										<tr class="updatePwd-step3" style="display: none">
 											<td style="text-align: right">再次输入：</td>
-											<td><input type="text"  class="textinput" id="txtNewPwd2"/> </td>
+											<td><input type="password"  class="textinput" id="txtNewPwd2"/> </td>
 											<td>&nbsp;</td>
 										</tr>
 										<tr class="updatePwd-step3" style="display: none">
@@ -177,11 +177,11 @@
 										</tr>
 										<tr class="updatePwd-step3" style="display: none">
 											<td style="text-align: right"></td>
-											<td></td>
+											<td><span id="msg_Success"></span></td>
 											<td>&nbsp;</td>
 										</tr>
 										
-										<!-- 【第三步开始】 -->
+										<!-- 【第三步结束】 -->
 
 									</table>
 
@@ -262,7 +262,11 @@
 				if(pwd1 == pwd2){
 					$.post("/User/executeUpdatePwd",{"newPwd1":pwd1, "newPwd2":pwd2},function(rst){
 						if(rst == "success"){
-							
+							$("#msg_Success").addClass("success");
+							$("#msg_Success").html("修改密码成功，3秒后将自动跳转！");
+							setTimeout(function(){
+								window.location.herf="/User/my";
+							},3000);
 						}else if(rst == "error1"){
 							alert("修改出错，请重试！");
 						}else if(rst == "error2"){
